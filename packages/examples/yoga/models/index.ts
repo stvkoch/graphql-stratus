@@ -1,0 +1,11 @@
+export { default as customers } from "./customers";
+export { default as categories } from "./categories";
+export { default as employees } from "./employees";
+export { default as territories } from "./territories";
+export { default as employeesterritories } from "./employeesterritories";
+export { default as regions } from "./regions";
+export { default as orders } from "./orders";
+export { default as ordersdetails } from "./ordersdetails";
+export { default as products } from "./products";
+export { default as sessions } from "./sessions";
+export { default as suppliers } from "./suppliers";

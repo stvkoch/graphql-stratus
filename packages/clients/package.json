@@ -1,0 +1,38 @@
+{
+  "name": "@graphql-stratus/clients",
+  "version": "0.0.5",
+  "description": "Clients to connect to g-Statrus",
+  "repository": "github:nicwo-com/graphql-stratus",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "compile": "tsc --declaration",
+    "lint": "tslint --project tsconfig.json",
+    "prepublish": "npm run compile",
+    "test": "mocha",
+    "pub": "npm publish --access public"
+  },
+  "directories": {
+    "lib": "./lib",
+    "src": "./src",
+    "test": "./src"
+  },
+  "devDependencies": {
+    "@types/mocha": "latest",
+    "@typescript-eslint/eslint-plugin": "^5.23.0",
+    "@typescript-eslint/parser": "^5.23.0",
+    "assert": "^2.0.0",
+    "eslint": "^8.16.0",
+    "mocha": "latest",
+    "ts-node": "^10.8.0",
+    "ts-node-dev": "^2.0.0-0",
+    "typescript": "^4.7.2"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.36"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "license": "ISC"
+}

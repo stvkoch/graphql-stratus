@@ -1,0 +1,12 @@
+environment:
+  USERNAME: ${USERNAME}
+  HOSTNAME: ${HOSTNAME}
+  DATABASE: ${DATABASE}
+  PASSWORD: ${PASSWORD}
+  PORT: ${PORT}
+  CA_CERT: ${CA_CERT}
+packages:
+  - name: gstratus
+    actions:
+    - name: graphql
+      runtime: nodejs:default

@@ -1,0 +1,13 @@
+{
+  "ts-node": {
+  },
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["esnext", "dom"],
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "paths": {
+      "models": ["./../models"]
+    }
+  }
+}
