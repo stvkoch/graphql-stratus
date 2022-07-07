@@ -62,3 +62,12 @@ Each associations is access by related datasource
 pnpm run start:redis
 NODE_ENV=development pnpm run start:server
 ```
+
+
+# Migration tools 
+
+Since than Graphql Stratus is datasource agnostic we don't hava plan to build a tool to migrate models to datasource.
+
+But here a list of migrations tools that you could use:
+
+https://github.com/amacneil/dbmate
